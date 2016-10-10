@@ -1,7 +1,7 @@
 <?php
 
 // Home
-Route::get('/', 'HomeController')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
 // Language
 Route::get('language/{lang}', 'LanguageController')
